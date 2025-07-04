@@ -1,0 +1,20 @@
+body {
+  background-color: #24273a;
+}
+#addViewButton {
+  background-color: #f5bde6;
+  border: none;
+  border-radius: 3px;
+  justify-content: right;
+  align-items: right;
+  font-size: 25px;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-weight: bold;
+  transition: all, 0.1s, easeinout;
+}
+#addViewButton:active{
+  background-color: #1e1e2e;
+  transform: translateY(-7%);
+}
